@@ -107,10 +107,10 @@ int main(void){
 	printf("\nDigite o tamanho do vetor: ");
 	int n; scanf("%i", &n);
 	
-	//Criando o vetor e preenchendo com valores aleatorios
-	int v3[n]; 
+	//Criando o vetor de maneira dinamica e preenchendo com valores aleatorios
+	int *v3 = (int*)malloc(n * sizeof(int)); 
 	FillAleatory(v3, n);
-	imprimir(v3, n);
+	//imprimir(v3, n);
 	
 	printf("\n_________[ Teste de Clock ]_________\n");
 	printf("\nBuscar key: ");
