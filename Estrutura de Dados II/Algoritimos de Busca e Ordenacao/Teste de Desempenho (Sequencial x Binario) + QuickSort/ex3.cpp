@@ -19,43 +19,6 @@ void FillAleatory(int vet[], int n){
 	}
 }
 
-//Algorítimo de ordenacao QuickSort em etapas, retorna o índice do corte
-	//O pivô é um elemento escolhido de um array para dividir os dados em duas partes.
-	int particionarVetor(int *vet, int inicio, int fim){
-		//Calcula a média dos tres valores para tentar encontrar um ponto balanceado de divisão
-		int pivot = (vet[inicio] + vet[fim] + vet[(inicio+fim)/2])/3;
-		
-		while(inicio < fim){
-			/* Estes dois laços pegam a posicao central e comparam com tudo o que antecede ou 
-			 * que seja posterior, se caso tudo o que vier antes ou após, já estiver em ordem
-			 * entao avança pra direita ou esquerda o ponteiro ate chegar ao pivot.
-			 *
-			 * Caso quebre a condição, realizara a mudança apos os laços
-			 */
-			
-			while(inicio < fim && vet[inicio] <= pivot) inicio++; 
-			while(inicio < fim && vet[fim] > pivot) fim--; 
-			
-			//Realizando a mudança
-			int aux = vet[inicio];
-			vet[inicio] = vet[fim];
-			vet[fim] = aux;
-		}
-		return inicio;
-	}
-
-	//Funcao recursiva de ordenacao principal
-	/* Basicamente pega o indice ao meio e realiza duas chamadas recursivas, uma do inicio ate a metade
-	 * e outra da metade ao final, assim realizando o metodo de divisao e conquista*/
-	void quickSort(int *vet, int inicio, int fim){
-		if(inicio < fim){
-			int indice = particionarVetor(vet, inicio, fim);
-			quickSort(vet, inicio, indice-1);	//Ordenar a metade esquerda
-			quickSort(vet, indice, fim);			//Ordenar a metade direita
-		}
-	}
-//Fim quickSort
-
 //Algoritimo de busca sequencial
 int SearchSeq(int vet[], int key, int n){
 	int i=0;
