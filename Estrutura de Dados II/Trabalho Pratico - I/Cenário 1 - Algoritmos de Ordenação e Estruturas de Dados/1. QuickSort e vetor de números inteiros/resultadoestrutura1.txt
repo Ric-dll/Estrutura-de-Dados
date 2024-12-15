@@ -1,0 +1,111 @@
+- CONJUNTO 1 PARA 1000 VALORES
+. Numero de comparacoes de chaves: 11826
+. Tempo total gasto na ordenacao: 0
+
+- CONJUNTO 2 PARA 1000 VALORES
+. Numero de comparacoes de chaves: 12195
+. Tempo total gasto na ordenacao: 0
+
+- CONJUNTO 3 PARA 1000 VALORES
+. Numero de comparacoes de chaves: 12116
+. Tempo total gasto na ordenacao: 0
+
+- CONJUNTO 4 PARA 1000 VALORES
+. Numero de comparacoes de chaves: 11568
+. Tempo total gasto na ordenacao: 0
+
+- CONJUNTO 5 PARA 1000 VALORES
+. Numero de comparacoes de chaves: 10816
+. Tempo total gasto na ordenacao: 0
+
+
+--------------------------------------------------------------------------------------
+
+- CONJUNTO 1 PARA 10000 VALORES
+. Numero de comparacoes de chaves: 193488
+. Tempo total gasto na ordenacao: 0
+
+- CONJUNTO 2 PARA 10000 VALORES
+. Numero de comparacoes de chaves: 190304
+. Tempo total gasto na ordenacao: 5
+
+- CONJUNTO 3 PARA 10000 VALORES
+. Numero de comparacoes de chaves: 191170
+. Tempo total gasto na ordenacao: 0
+
+- CONJUNTO 4 PARA 10000 VALORES
+. Numero de comparacoes de chaves: 199644
+. Tempo total gasto na ordenacao: 0
+
+- CONJUNTO 5 PARA 10000 VALORES
+. Numero de comparacoes de chaves: 191971
+. Tempo total gasto na ordenacao: 1
+
+
+--------------------------------------------------------------------------------------
+
+- CONJUNTO 1 PARA 100000 VALORES
+. Numero de comparacoes de chaves: 6483213
+. Tempo total gasto na ordenacao: 18
+
+- CONJUNTO 2 PARA 100000 VALORES
+. Numero de comparacoes de chaves: 6405063
+. Tempo total gasto na ordenacao: 14
+
+- CONJUNTO 3 PARA 100000 VALORES
+. Numero de comparacoes de chaves: 6418340
+. Tempo total gasto na ordenacao: 31
+
+- CONJUNTO 4 PARA 100000 VALORES
+. Numero de comparacoes de chaves: 6499932
+. Tempo total gasto na ordenacao: 20
+
+- CONJUNTO 5 PARA 100000 VALORES
+. Numero de comparacoes de chaves: 6518524
+. Tempo total gasto na ordenacao: 16
+
+
+--------------------------------------------------------------------------------------
+
+- CONJUNTO 1 PARA 1000000 VALORES
+. Numero de comparacoes de chaves: 514316176
+. Tempo total gasto na ordenacao: 1126
+
+- CONJUNTO 2 PARA 1000000 VALORES
+. Numero de comparacoes de chaves: 514177217
+. Tempo total gasto na ordenacao: 1125
+
+- CONJUNTO 3 PARA 1000000 VALORES
+. Numero de comparacoes de chaves: 515184389
+. Tempo total gasto na ordenacao: 1110
+
+- CONJUNTO 4 PARA 1000000 VALORES
+. Numero de comparacoes de chaves: 514557692
+. Tempo total gasto na ordenacao: 1127
+
+- CONJUNTO 5 PARA 1000000 VALORES
+. Numero de comparacoes de chaves: 515144392
+. Tempo total gasto na ordenacao: 1126
+
+
+--------------------------------------------------------------------------------------
+
+- CONJUNTO 1 PARA 10000000 VALORES
+. Numero de comparacoes de chaves: 2905953881
+. Tempo total gasto na ordenacao: 112744
+
+- CONJUNTO 2 PARA 10000000 VALORES
+. Numero de comparacoes de chaves: 2912221540
+. Tempo total gasto na ordenacao: 116500
+
+- CONJUNTO 3 PARA 10000000 VALORES
+. Numero de comparacoes de chaves: 2903472554
+. Tempo total gasto na ordenacao: 117119
+
+- CONJUNTO 4 PARA 10000000 VALORES
+. Numero de comparacoes de chaves: 2916158904
+. Tempo total gasto na ordenacao: 114672
+
+- CONJUNTO 5 PARA 10000000 VALORES
+. Numero de comparacoes de chaves: 2903352826
+. Tempo total gasto na ordenacao: 117985
