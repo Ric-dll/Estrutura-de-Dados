@@ -1,4 +1,0 @@
-Estatisticas da Ordenacao:
-Numero de comparacoes: 18715509
-Numero de copias: 39961216
-Tempo total de processamento: 0.408000 segundos

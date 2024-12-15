@@ -1,3 +1,0 @@
-Número de Comparações: 8837612
-Número de Cópias: 18951424
-Tempo de Processamento: 0.289000 segundos
