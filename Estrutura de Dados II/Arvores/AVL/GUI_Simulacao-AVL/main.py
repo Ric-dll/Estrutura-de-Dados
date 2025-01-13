@@ -394,6 +394,14 @@ class INTERFACE_ARVORE_AVL:
             # Tenta converter o valor inserido no campo de entrada para inteiro
             valor = int(self.entrada.get())
             
+            # Verifica se o valor já existe na árvore usando a função de busca
+            if self.arvore.buscar(self.raiz, valor):
+                # Registra no histórico que o valor já existe e não será inserido
+                self.atualizar_historico(f"Valor {valor} já existe na árvore. Inserção Anulada!.")
+                
+                return  # Sai da função sem realizar a inserção
+            
+            # Se o valor não existe, realiza a inserção
             # Chama a função de inserção na árvore AVL e atualiza a raiz com o novo nó
             self.raiz = self.arvore.inserir(self.raiz, valor)
             
